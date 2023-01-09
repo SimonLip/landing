@@ -37,6 +37,62 @@
     <br>
     <textarea name="message" rows="20" cols="30">Your text</textarea>
     <br>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <p>Нік</p>
+            <input placeholder="Имя" tabindex="1" name="username" type="text" />
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input tabindex="2" name="userpass" type="password" />
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input tabindex="3" name="userphone" type="tel" />
+        </div>
+        <div>
+            <p>Стать</p>
+            <div>
+                <input tabindex="4" checked type="radio" name="gender" value="male" /> М
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="female" /> Ж
+            </div>
+        </div>
+        <div>
+            <p>Щось</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="bike" value="yes" /> Щось
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="car" value="yes" /> Щось
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="house" value="yes" /> Щось
+            </div>
+        </div>
+        <div>
+            <p>Доп інфа</p>
+            <textarea tabindex="8" name="text"></textarea>
+        </div>
+        <div>
+            <p>Фото</p>
+            <input tabindex="9" type="file" />
+        </div>
+        <div>
+            <p>Колір</p>
+            <select tabindex="10" name="color">
+                <option value="red">Червонийй</option>
+                <option value="green">Зелений</option>
+                <option selected value="yellow">Жовтий</option>
+            </select>
+        </div>
+        <div>
+            <p>Действия</p>
+            <button tabindex="11" type="submit">Відправити</button>
+            <button tabindex="12" type="reset">Витерти</button>
+        </div>
+    </form>
 
 
 </body>
