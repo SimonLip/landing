@@ -127,10 +127,6 @@ ul {
 	}
 }
 
-.sms {
-	font: size 18px;
-}
-
 .gallery__items {
 	display: grid;
 	gap: 10px;
